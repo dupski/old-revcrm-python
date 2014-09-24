@@ -1,0 +1,22 @@
+---
+- RevAction:
+    id: action_main_menu
+    type: menu
+    name: Main Menu
+    menu: main_menu
+
+- RevAction:
+    id: action_companies
+    type: model_view
+    name: Companies
+    model: RCRMAccount
+    view_types: list,form
+    filter: "{'is_a_company':true}"
+
+- RevAction:
+    id: action_contacts
+    type: model_view
+    name: Contacts
+    model: RCRMAccount
+    view_types: list,form
+    filter: "{'is_a_company':false}"
