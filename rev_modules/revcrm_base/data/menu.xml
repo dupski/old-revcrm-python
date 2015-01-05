@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rev>
+
+	<Menu
+		id="accounts_menu"
+		name="Accounts"
+		sequence="10"
+	/>
+
+	<Menu
+		id="companies"
+		name="Companies"
+		parent="accounts_menu"
+		icon="building"
+		sequence="10"
+		action="company_list"
+	/>
+
+	<Menu
+		id="contacts"
+		name="Contacts"
+		parent="accounts_menu"
+		icon="building"
+		sequence="20"
+		action="contact_list"
+	/>
+
+</rev>

@@ -1,5 +1,0 @@
----
-- RevApp:
-    id: app_main
-    name: RevCRM
-    home_action: action_main_menu

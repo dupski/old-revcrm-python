@@ -20,8 +20,6 @@ MODULE_PATHS = [
 ]
 
 INSTALLED_MODULES = [
-    'rev_app',
-    'rev_auth',
     'revcrm_base',
     'revcrm_calendar',
 ]

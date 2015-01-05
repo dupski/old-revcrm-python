@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rev>
+
+	<Action
+		id="company_list"
+		type="view"
+		name="Companies"
+		model="Account"
+		view_types="list,form"
+		filter="{'is_company':true}"
+	/>
+
+	<Action
+		id="contact_list"
+		type="view"
+		name="Contacts"
+		model="Account"
+		view_types="list,form"
+		filter="{'is_company':false}"
+	/>
+
+</rev>
