@@ -1,9 +1,9 @@
 
-from rev.db.models import DBModel, fields
-from rev.models.mixins import XMLDataMixin
+from rev.db import Model, fields
+from rev.db.mixins import XMLDataMixin
 from rev.i18n import translate as _
 
-class RevCRMModel(DBModel, XMLDataMixin):
+class RevCRMModel(XMLDataMixin, Model):
     """
     Base class for rev_app metadata models
     """

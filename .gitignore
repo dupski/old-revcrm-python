@@ -12,3 +12,6 @@ environment
 
 # Built Docs
 _build/
+
+# Rev Core Modules
+rev_core

@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <rev>
 
-	<View id="app_navbar" name="RevCRM Menu View Innit Bruv">
-	<!-- modify="rev_app.app_navbar" -->
+	<View id="rev_crm_navbar" modify="rev_app.app_navbar" name="RevCRM Navigation">
 		
-		<!-- Override Help Menu Items-->
+		<!-- Override Help Menu Items -->
 		<modify xpath="//a[@name='documentation_link']" action="replace">
             <a href="http://www.revcrm.org/">RevCRM Help</a>
         </modify>
@@ -14,5 +13,5 @@
         </modify>
 		
 	</View>
-	
+
 </rev>

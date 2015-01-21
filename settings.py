@@ -15,7 +15,7 @@ DATABASES = {
 }
 
 MODULE_PATHS = [
-    '/home/russell/code/revframework/revframework/rev_modules',
+    '/home/russell/code/revframework/revcrm/rev_core',
     '/home/russell/code/revframework/revcrm/rev_modules',
 ]
 
